@@ -269,7 +269,7 @@ body {
     font-size: 2rem;
 }
 
-.download {
+.download, .signup {
     background-color: var(--ds-bluet);
     color: var(--ds-white);
     max-width: ;
@@ -330,6 +330,7 @@ ul li:first-child{
 .flex-top {
     display: flex;
     padding: 3rem 0;
+    border-bottom: 1px solid #374058;
 }
 
 .col-big {
@@ -348,6 +349,7 @@ ul li:first-child{
     justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
+    margin-top: 2rem;
 }
 
 /* #endregion footer */
