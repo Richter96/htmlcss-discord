@@ -66,6 +66,12 @@
     padding: 1rem 4rem;
 }
 
+.flex-nav  a{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    color: var(--ds-white);
+}
+
 
 .jumbotron {
     display: flex;
