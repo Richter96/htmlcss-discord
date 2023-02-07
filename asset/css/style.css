@@ -1,0 +1,223 @@
+/* #region common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wallpaper {
+    background-color: rgba(122, 211, 255, 0.647);
+}
+
+:root {
+    --ds-light: #f6f6f6;
+    --ds-white: #ffffff;
+    --ds-blackfooter: #23272a;
+    --bg-grey: #f6f6f6;
+
+}
+
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* #endregion common */
+
+/* #region header  */
+
+#flex-menu {
+    display: flex;
+    padding: 1rem 0;
+}
+
+
+#flex-menu .logo {
+    max-width: 25%;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    padding-left: 2rem;
+}
+
+#flex-menu .login {
+    max-width: 25%;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+.flex-nav {
+    flex-grow: 2;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    padding: 1rem 4rem;
+}
+
+
+.jumbotron {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.jumbotron #flex-text {
+    display: flex;
+    margin: 2rem;
+}
+
+/* #endregion header  */
+
+
+/* #region debug */
+
+
+.debug #flex-menu .logo,
+.debug .flex-nav,
+.debug .login {
+    background-color: yellow;
+    border: 1px dashed black;
+}
+
+.debug .flex-menu{
+    background-color: aqua;
+}
+
+.debug #flex-text {
+    height: 400px;
+    width: 35%;
+    background-color: blueviolet;
+    border: 1px dashed black;
+}
+
+/* main debug */
+
+
+
+
+.debug .detail-party {
+    background: aliceblue;
+    border: 1px dashed black;
+    height: 100%;
+}
+
+.debug .img-party {
+    height: 400px;
+    background-color: rgb(135, 135, 255);
+    border: 1px dashed black;
+    width: 60%;
+}
+.debug .detail-big {
+    background: aliceblue;
+    border: 1px dashed black;
+    height: 700px;
+}
+
+.debug .party {
+    background-color: rgb(6, 6, 133);
+    border: 1px dashed black;
+}
+
+.debug .col, .col-big {
+    height: 500px;
+    background-color: rgb(255, 213, 161);
+    border: 1px dashed rgb(255, 255, 255);
+
+}
+
+.debug .flex-bottom {
+    height: 40px;
+    background-color: antiquewhite;
+}
+
+.debug .flex-bottom .logo {
+    border: 1px dashed rgb(255, 255, 255);
+    height: 20px;
+}
+
+/* #endregion debug */
+
+/* #region main */
+.back-grey {
+    background-color: var(--ds-light)
+}
+
+.back-white {
+    background-color: var(--ds-white)
+}
+
+.back-grey,
+.back-white {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.party {
+    display: flex;
+    margin: 2rem;
+}
+
+.big {
+    margin: 2rem;
+}
+
+.detail-party {
+    width: 40%;
+}
+
+.detail-big {
+    width: 100%;
+}
+
+.img-party {
+    width: 60%;
+}
+
+.back-grey .img-party {
+    order: 2;
+}
+
+/* #endregion main */
+
+/* #region footer */
+
+#app-footer {
+    background-color: var(--ds-blackfooter);
+    padding-bottom: 2rem;
+}
+
+.flex-top {
+    display: flex;
+    padding: 3rem 0;
+}
+
+.col-big {
+    flex-grow: 2;
+}
+
+.col {
+    flex-grow: 1;
+}
+
+.flex-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+/* #endregion footer */
