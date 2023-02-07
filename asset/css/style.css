@@ -1,5 +1,6 @@
 /* #region common */
 
+/* font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,8 @@
 }
 
 .wallpaper {
-    background-color: rgba(122, 211, 255, 0.647);
+   background-image: url(../img/jumbo.png);
+   background-size: cover;
 }
 
 :root {
@@ -15,7 +17,6 @@
     --ds-white: #ffffff;
     --ds-blackfooter: #23272a;
     --bg-grey: #f6f6f6;
-
 }
 
 .container {
@@ -23,6 +24,7 @@
     max-width: 1170px;
     margin: auto;
 }
+
 
 /* #endregion common */
 
