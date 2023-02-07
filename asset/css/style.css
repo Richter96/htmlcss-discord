@@ -24,6 +24,9 @@
     margin: auto;
 }
 
+body {
+    font-family: 'Whitney', sans-serif;
+}
 
 /* #endregion common */
 
@@ -220,6 +223,7 @@
     background-color: var(--ds-white)
 }
 
+
 .back-grey,
 .back-white {
     display: flex;
@@ -228,21 +232,45 @@
     align-content: center;
 }
 
-.party {
+.find,
+.invite,
+.fandom {
     display: flex;
     margin: 2rem;
 }
 
-.big {
-    margin: 2rem;
+.detail {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 14rem;
+    justify-content: center;
 }
 
-.detail-party {
+.detail h2 {
+    font-size: 3rem;
+}
+
+.detail p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+
+.detail-party,
+.text-invite {
     width: 40%;
 }
 
+
+
 .detail-big {
     width: 100%;
+}
+
+.big {
+    margin: 2rem;
 }
 
 .img-party {
