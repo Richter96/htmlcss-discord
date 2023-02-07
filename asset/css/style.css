@@ -276,9 +276,11 @@ body {
     padding: 2rem;
 }
 
-
-.download,
 .signup {
+    background-color: var(--ds-bluet);
+    color: var(--ds-white);
+}
+.download {
     background-color: var(--ds-bluet);
     color: var(--ds-white);
     margin: auto;
