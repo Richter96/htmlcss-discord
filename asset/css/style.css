@@ -8,8 +8,8 @@
 }
 
 .wallpaper {
-   background-image: url(../img/jumbo.png);
-   background-size: cover;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 :root {
@@ -21,7 +21,6 @@
 
 .container {
     width: 80%;
-    max-width: 1170px;
     margin: auto;
 }
 
@@ -32,22 +31,21 @@
 
 #flex-menu {
     display: flex;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 
 #flex-menu .logo {
-    max-width: 25%;
+    /* max-width: 25%; */
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
     align-content: center;
     justify-content: flex-start;
-    padding-left: 2rem;
 }
 
 #flex-menu .login {
-    max-width: 25%;
+    /* max-width: 25%; */
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
@@ -57,7 +55,7 @@
 }
 
 .flex-nav {
-    flex-grow: 2;
+    flex-grow: 4;
     max-width: 50%;
     display: flex;
     flex-wrap: wrap;
@@ -66,14 +64,13 @@
     padding: 1rem 4rem;
 }
 
-.flex-nav  a{
+.flex-nav a {
     text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--ds-white);
 }
 
-
-.jumbotron {
+.login .jumbotron {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -84,6 +81,13 @@
 .jumbotron #flex-text {
     display: flex;
     margin: 2rem;
+}
+
+button {
+    padding: 0.8rem;
+    background-color: var(--ds-light);
+    border: none;
+    border-radius: 2rem;
 }
 
 /* #endregion header  */
@@ -99,7 +103,7 @@
     border: 1px dashed black;
 }
 
-.debug .flex-menu{
+.debug .flex-menu {
     background-color: aqua;
 }
 
@@ -127,6 +131,7 @@
     border: 1px dashed black;
     width: 60%;
 }
+
 .debug .detail-big {
     background: aliceblue;
     border: 1px dashed black;
@@ -138,7 +143,8 @@
     border: 1px dashed black;
 }
 
-.debug .col, .col-big {
+.debug .col,
+.col-big {
     height: 500px;
     background-color: rgb(255, 213, 161);
     border: 1px dashed rgb(255, 255, 255);
