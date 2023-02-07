@@ -17,6 +17,8 @@
     --ds-white: #ffffff;
     --ds-blackfooter: #23272a;
     --bg-grey: #f6f6f6;
+    --ds-bluet: #8ea1e1;
+    --ds--blutext:#6f85d3;
 }
 
 .container {
@@ -26,6 +28,13 @@
 
 body {
     font-family: 'Whitney', sans-serif;
+}
+
+.btn {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 20px;
 }
 
 /* #endregion common */
@@ -120,19 +129,11 @@ body {
 }
 
 .btn.mac {
-    padding: 0.8rem;
     background-color: var(--ds-white);
-    border: none;
-    border-radius: 2rem;
-    font-size: 20px;
 }
 
 .btn.browser {
-    padding: 0.8rem;
     background-color: var(--ds-blackfooter);
-    border: none;
-    border-radius: 2rem;
-    font-size: 20px;
     color: var(--ds-white);
 }
 
@@ -195,7 +196,7 @@ body {
 }
 
 .debug .col,
-.col-big {
+.debug .col-big {
     height: 500px;
     background-color: rgb(255, 213, 161);
     border: 1px dashed rgb(255, 255, 255);
@@ -256,8 +257,25 @@ body {
     line-height: 1.5;
 }
 
+.big .detail {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 14rem;
+    justify-content: center;
+}
 
+.ready p {
+    font-size: 2rem;
+}
 
+.download {
+    background-color: var(--ds-bluet);
+    color: var(--ds-white);
+    max-width: ;
+}
+
+/* non credo serva, controllare */
 .detail-party,
 .text-invite {
     width: 40%;
@@ -290,17 +308,39 @@ body {
     padding-bottom: 2rem;
 }
 
+ul {
+    list-style: none;
+}
+
+li>h2 {
+    font-size: 2rem;
+    color: var(--ds--blutext);
+}
+
+li>h3 {
+    color: var(--ds--blutext);
+}
+ul>li {
+    color: var(--ds-white);
+    padding: 0.5rem 0;
+}
+ul li:first-child{
+    padding: 0 5% 1rem 0;
+}
 .flex-top {
     display: flex;
     padding: 3rem 0;
 }
 
 .col-big {
-    flex-grow: 2;
+    width: 30%;
+    color: var(--ds-white);
 }
-
+.social li  {
+    padding: 1rem;
+}
 .col {
-    flex-grow: 1;
+    width: calc(100%/5);
 }
 
 .flex-bottom {
