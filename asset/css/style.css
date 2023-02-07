@@ -18,11 +18,11 @@
     --ds-blackfooter: #23272a;
     --bg-grey: #f6f6f6;
     --ds-bluet: #8ea1e1;
-    --ds--blutext:#6f85d3;
+    --ds--blutext: #6f85d3;
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -218,6 +218,7 @@ body {
 /* #region main */
 .back-grey {
     background-color: var(--ds-light)
+    
 }
 
 .back-white {
@@ -244,7 +245,8 @@ body {
     text-align: left;
     display: flex;
     flex-direction: column;
-    padding: 2rem 14rem;
+    width: 30%;
+    margin: auto;
     justify-content: center;
 }
 
@@ -255,24 +257,31 @@ body {
 .detail p {
     font-size: 1.2rem;
     line-height: 1.5;
+    padding: 2rem 0;
 }
 
 .big .detail {
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 2rem 14rem;
     justify-content: center;
+    width: 100%;
 }
 
 .ready p {
     font-size: 2rem;
+    padding: 0;
+}
+.ready {
+    padding: 2rem;
 }
 
-.download, .signup {
+
+.download,
+.signup {
     background-color: var(--ds-bluet);
     color: var(--ds-white);
-    max-width: ;
+    margin: auto;
 }
 
 /* non credo serva, controllare */
@@ -320,13 +329,16 @@ li>h2 {
 li>h3 {
     color: var(--ds--blutext);
 }
+
 ul>li {
     color: var(--ds-white);
     padding: 0.5rem 0;
 }
-ul li:first-child{
+
+ul li:first-child {
     padding: 0 5% 1rem 0;
 }
+
 .flex-top {
     display: flex;
     padding: 3rem 0;
@@ -337,9 +349,11 @@ ul li:first-child{
     width: 30%;
     color: var(--ds-white);
 }
-.social li  {
+
+.social li {
     padding: 1rem;
 }
+
 .col {
     width: calc(100%/5);
 }
