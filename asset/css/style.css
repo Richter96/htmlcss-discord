@@ -78,17 +78,64 @@
     align-content: center;
 }
 
-.jumbotron #flex-text {
-    display: flex;
-    margin: 2rem;
+.jumbotron {
+    width: 50%;
+    margin: auto;
 }
 
-button {
+.jumbotron #jambo-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+
+}
+
+#jambo-text h1 {
+    font-size: 3rem;
+    font-family: 'Whitney', sans-serif;
+    padding: 2rem;
+}
+
+#jambo-text {
+    font-family: 'Whitney', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 3rem;
+}
+
+#jambotext p {
+    font-family: 'Whitney', sans-serif;
+    padding: 2rem;
+}
+
+.login button {
     padding: 0.8rem;
-    background-color: var(--ds-light);
+    background-color: var(--ds-white);
     border: none;
     border-radius: 2rem;
 }
+
+.btn.mac {
+    padding: 0.8rem;
+    background-color: var(--ds-white);
+    border: none;
+    border-radius: 2rem;
+    font-size: 20px;
+}
+
+.btn.browser {
+    padding: 0.8rem;
+    background-color: var(--ds-blackfooter);
+    border: none;
+    border-radius: 2rem;
+    font-size: 20px;
+}
+
+.container-btn {
+    padding: 2rem;
+}
+
 
 /* #endregion header  */
 
