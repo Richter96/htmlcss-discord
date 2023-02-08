@@ -30,6 +30,10 @@ body {
     font-family: 'Whitney', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .btn {
     padding: 0.8rem;
     border: none;
@@ -218,7 +222,6 @@ body {
 /* #region main */
 .back-grey {
     background-color: var(--ds-light)
-    
 }
 
 .back-white {
@@ -272,6 +275,7 @@ body {
     font-size: 2rem;
     padding: 0;
 }
+
 .ready {
     padding: 2rem;
 }
@@ -280,6 +284,7 @@ body {
     background-color: var(--ds-bluet);
     color: var(--ds-white);
 }
+
 .download {
     background-color: var(--ds-bluet);
     color: var(--ds-white);
@@ -308,6 +313,17 @@ body {
 
 .back-grey .img-party {
     order: 2;
+}
+
+.wave_top {
+    color: var(--bg-grey);
+    margin: -5px;
+}
+
+.wave_bottom {
+    color: var(--bg-grey);
+    margin: -5px;
+    rotate: 180deg;
 }
 
 /* #endregion main */
@@ -371,4 +387,5 @@ ul li:first-child {
 .italia {
     max-width: 9%;
 }
+
 /* #endregion footer */
