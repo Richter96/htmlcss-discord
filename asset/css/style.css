@@ -368,4 +368,7 @@ ul li:first-child {
     margin-top: 2rem;
 }
 
+.italia {
+    max-width: 9%;
+}
 /* #endregion footer */
